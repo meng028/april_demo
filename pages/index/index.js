@@ -62,15 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  addCount:function(){
-    this.setData({
-      count:this.data.count + 1
-    })
-  },
-  reduceCount: function () {
-    this.setData({
-      count: this.data.count - 1
-    })
   }
-})
+});
