@@ -1,0 +1,6 @@
+<view>页面一</view>
+<view>
+   <text>数量:{{count}}</text>
+   <button bindtap='addCount'>+</button>
+   <button bindtap='reduceCount'>-</button>
+</view> 

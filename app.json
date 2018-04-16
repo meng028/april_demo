@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/dingwei/dingwei",
+    "pages/swiper/swiper"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#4dc0ff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "店铺"
+      },
+      {
+        "pagePath": "pages/dingwei/dingwei",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/swiper/swiper",
+        "text": "我"
+      }
+    ]
+  }
+}
