@@ -1,4 +1,5 @@
 // pages/dingwei/dingwei.js
+var { count } = require('../../store/Count');
 Page({
 
     /**
@@ -64,15 +65,17 @@ Page({
 
     },
     bindAddCount: function () {
+        //  增加
+        count.increase();
+        //  渲染
         this.setData({
-            count: this.data.count + 1
-        })
-
+            count: count.getCurrentCount()  // 获得当前数量
+        });
     },
     bindReduceCount: function () {
+        count.reduce();
         this.setData({
-            count: this.data.count - 1
+            count: count.getCurrentCount()
         })
     }
-
 });
