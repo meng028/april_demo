@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/dingwei/dingwei",
-    "pages/swiper/swiper"
+    "pages/swiper/swiper",
+    "pages/b/b"
   ],
   "window": {
     "backgroundTextStyle": "light",
