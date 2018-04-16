@@ -4,3 +4,7 @@
    <button bindtap="bindAddCount">+</button>
    <button bindtap="bindReduceCount">-</button>
 </view>
+<navigator url="/pages/b/b">
+   跳转按钮
+
+</navigator>
